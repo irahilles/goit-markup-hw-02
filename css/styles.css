@@ -1,0 +1,21 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
+    background-color: #fff;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+font-family: "Raleway", sans-serif;
+}
+.logo-web {
+    color: #4d5ae5;
+}
