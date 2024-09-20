@@ -47,8 +47,8 @@ color: #434455;
     color: #4D5AE5;
 }
 
-.nav-link-studio:hover,
-.nav-link-studio:focus {
+.nav-link:hover,
+.nav-link:focus {
    color: #404bbf;
 }
 .button {
