@@ -1,8 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-family: "Raleway", sans-serif;
     background-color: #fff;
-    color: black;
+    color: #434455;
 }
 a {
     text-decoration: none;
@@ -10,7 +9,7 @@ a {
 .logo {
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
@@ -27,39 +26,49 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .address {
+font-style: normal;
+}
+.address-list {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
+.address-list:hover,
+.address-list:focus {
+   color: #404bbf;
+}
+
 .logo:hover,
-.nav-link:hover,
-.address:hover {
+.logo:focus
+ {
     color: #4D5AE5;
 }
-.logo:focus,
-.nav-link:focus,
-.address:focus {
-    color: #4D5AE5;
+
+.nav-link-studio:hover,
+.nav-link-studio:focus {
+   color: #404bbf;
 }
 .button {
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
 cursor: pointer;
 }
-.button:hover {
+.button:hover,
+button:focus {
    background-color: #404BBF;
 }
-h1 {
+.title-main {
     font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -67,15 +76,16 @@ color: #fff;
 .title-section {
     background-color: #2e2f42;
 }
-h2 {
+.secondary-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.1;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
-p {
+.paragraf {
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -104,4 +114,7 @@ color: #2e2f42;
 }
 li {
     list-style-type: none;
+}
+.team-section {
+    background-color: #F4F4FD;
 }
