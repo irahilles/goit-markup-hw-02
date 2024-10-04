@@ -121,3 +121,9 @@ li {
 .team-list {
     background-color: #FFFFFF;
 }
+.header {
+    display: flex;
+}
+.nav {
+    display: flex;
+}
